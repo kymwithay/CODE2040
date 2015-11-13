@@ -1,6 +1,6 @@
 from urllib2 import Request, urlopen, URLError
 
-requests = Request('https://github.com/kymwithay/CODE2040')
+requests = Request('http://challenge.code2040.org/api/register')
 
 try:
 	response = urlopen(requests)
