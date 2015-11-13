@@ -1,6 +1,6 @@
-from urllib2 import REQUEST, urlopen, URLerror
+from urllib2 import Request, urlopen, URLError
 
-requests = REQUEST('https://github.com/kymwithay/CODE2040')
+requests = Request('https://github.com/kymwithay/CODE2040')
 
 try:
 	response = urlopen(requests)
