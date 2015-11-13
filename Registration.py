@@ -1,5 +1,5 @@
-import requests  
-import JSON
+import requests
+import json
 
 #JSON DICTIONARY
 {
